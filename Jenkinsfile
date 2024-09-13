@@ -5,7 +5,7 @@ pipeline {
   stages {
     stage('checkout') {
       steps {
-        git credentialsId: 'c9018113-74d0-489b-a645-028032575992' url: 'https://github.com/puja2106/publicrepo.git
+        git credentialsId: 'c9018113-74d0-489b-a645-028032575992' url: 'https://github.com/puja2106/publicrepo.git'
       }
     }
     stage('Test') {
