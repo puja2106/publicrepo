@@ -11,7 +11,7 @@ pipeline {
     stage('Test 2') {
       steps {
         echo "My first pipeline"
-        echo "Github webhook added"
+        echo "Github webhook added and testing"
       }
     }
   }
